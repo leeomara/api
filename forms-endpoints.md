@@ -50,9 +50,9 @@ If `provider` and `form_config_id` are set, they must match.
 
 ### Examples: 
 
-* `POST /forms/drupal-webform/submit`
-* `POST /forms/drupal-webform/:form_config_id/submit` <- doesn't exist yet, but should
-* `POST /forms/form-hero/submit` <- this form is particularly convenient for us for wiring up forms
+* `POST /forms/drupal_webform/submit`
+* `POST /forms/drupal_webform/:form_config_id/submit` <- doesn't exist yet, but should
+* `POST /forms/form_hero/submit` <- this form is particularly convenient for us for wiring up forms
 
 
 ## Form Submission Data
