@@ -58,7 +58,7 @@ If `provider` and `form_config_id` are set, they must match.
 ## Form Submission Data
 Work with data submitted via the form.
 
-* `GET forms/121/submissions` will return a paginated list of all the submission for the form configuration `121`
+* `GET /api/forms/121/submissions` will return a paginated list of all the submission for the form configuration `121`
 
 See [form_configs](#) for a list of configured forms.  The [submission debug endpoint](#submission-debug-endpoint) will return the schema of a form submission.
 
